@@ -9,6 +9,8 @@ import {
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import About from './Components/About/About';
+import Footer from "./helpers/Footer"
 function App() {
   return (
     <div className="App">
@@ -16,8 +18,10 @@ function App() {
     <Navbar />
         <Routes>
           <Route path="/" element={<Home />}  exact/>
+          <Route path="/about" element={<About />}  exact/>
         </Routes>
-    </Router>
+    <Footer/>
+  </Router>
     </div>
   );
 }

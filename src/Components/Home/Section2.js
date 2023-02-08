@@ -54,7 +54,7 @@ function Section2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src="https://avatars.githubusercontent.com/u/76118788?s=400&u=938e356c365da338b7dd49071d6a77fd767fdf93&v=4" className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

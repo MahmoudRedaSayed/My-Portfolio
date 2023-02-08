@@ -2,22 +2,23 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../../helpers/Particle";
-import Mumble from "../../Assets/Projects/Mumble.png";
-import WhatsApp from "../../Assets/Projects/WhatsApp.png";
-import MeetStrangers from "../../Assets/Projects/MeetStrangers.png"
-import AlgoPhobia from "../../Assets/Projects/AlgoPhobia.png"
-import PizzaStore from "../../Assets/Projects/Pizza.png";
-import ProShopping from "../../Assets/Projects/ProShopping.png";
+import Mumble from "../../Assets/projects/Mumble.png";
+import WhatsApp from "../../Assets/projects/WhatsApp.png";
+import MeetStrangers from "../../Assets/projects/MeetStrangers.png"
+import AlgoPhobia from "../../Assets/projects/AlgoPhobia.png"
+import PizzaStore from "../../Assets/projects/Pizza.png";
+import ProShopping from "../../Assets/projects/ProShopping.png";
 // import K3M from "../../Assets/Projects/K3m.png";
-import FitClub from "../../Assets/Projects/FitClub.png";
-import Resturante from "../../Assets/Projects/restourant.png";
-import Kaspse from "../../Assets/Projects/Kapse.png";
-import Travel from "../../Assets/Projects/Travel.png";
-import Adventure from "../../Assets/Projects/Adventure.png";
-import HelloThere from "../../Assets/Projects/HelloThere.png";
-import ToDo from "../../Assets/Projects/Todo.png";
-import Blogger from "../../Assets/Projects/Blogger.png";
-import FootballScore from "../../Assets/Projects/FootballScore.png";
+import FitClub from "../../Assets/projects/FitClub.png";
+import Resturante from "../../Assets/projects/restourant.png";
+import Kaspse from "../../Assets/projects/Kapse.png";
+
+import Travel from "../../Assets/projects/Travel.png";
+import Adventure from "../../Assets/projects/Adventure.png";
+import HelloThere from "../../Assets/projects/HelloThere.png";
+import ToDo from "../../Assets/projects/Todo.png";
+import Blogger from "../../Assets/projects/Blogger.png";
+import FootballScore from "../../Assets/projects/FootballScore.png";
 
 function Projects() {
   return (
@@ -93,7 +94,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={"https://github.com/MahmoudRedaSayed/Search-Engine/blob/main/Pics/suggest.PNG"}
+              imgPath="https://raw.githubusercontent.com/MahmoudRedaSayed/Search-Engine/main/Pics/suggest.PNG"
               isBlog={false}
               title="K3M"
               description="Search K3M is a search engine similar to Google, Yahoo, and Bing.."

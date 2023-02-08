@@ -9,7 +9,7 @@ import AlgoPhobia from "../../Assets/Projects/AlgoPhobia.png"
 import PizzaStore from "../../Assets/Projects/Pizza.png";
 import ProShopping from "../../Assets/Projects/ProShopping.png";
 import K3M from "../../Assets/Projects/K3m.png";
-import FitClub from "../../Assets/Projects/FitClub.gif";
+import FitClub from "../../Assets/Projects/FitClub.png";
 import Resturante from "../../Assets/Projects/restourant.png";
 import Kaspse from "../../Assets/Projects/Kapse.png";
 import Travel from "../../Assets/Projects/Travel.png";

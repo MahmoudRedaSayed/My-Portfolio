@@ -8,7 +8,7 @@ import MeetStrangers from "../../Assets/Projects/MeetStrangers.png"
 import AlgoPhobia from "../../Assets/Projects/AlgoPhobia.png"
 import PizzaStore from "../../Assets/Projects/Pizza.png";
 import ProShopping from "../../Assets/Projects/ProShopping.png";
-import K3M from "../../Assets/Projects/K3m.png";
+// import K3M from "../../Assets/Projects/K3m.png";
 import FitClub from "../../Assets/Projects/FitClub.png";
 import Resturante from "../../Assets/Projects/restourant.png";
 import Kaspse from "../../Assets/Projects/Kapse.png";
@@ -93,7 +93,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={K3M}
+              imgPath={"https://github.com/MahmoudRedaSayed/Search-Engine/blob/main/Pics/suggest.PNG"}
               isBlog={false}
               title="K3M"
               description="Search K3M is a search engine similar to Google, Yahoo, and Bing.."

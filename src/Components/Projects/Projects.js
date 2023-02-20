@@ -204,11 +204,11 @@ function Projects() {
           My Collage's <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          visit my github account <Button variant="primary" href={"https://github.com/MahmoudRedaSayed"} target="_blank">
+          visit my github account </p><Button variant="primary" href={"https://github.com/MahmoudRedaSayed"} target="_blank">
           <BsGithub /> &nbsp;
           Reda
         </Button>
-        </p>
+        
         </Container>
     </Container>
   );

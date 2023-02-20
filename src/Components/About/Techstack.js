@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+
 import {
   DiJavascript1,
   DiReact,
@@ -20,7 +21,8 @@ import {
   SiCss3,
   SiHtml5,
   SiJava,
-  SiReduxsaga
+  SiReduxsaga,
+  SiCypress
 } from "react-icons/si";
 
 function Techstack() {
@@ -71,6 +73,17 @@ function Techstack() {
       </Col>
     </Row>
     <h1 className="project-heading">
+          Testing <strong className="purple">Skillset </strong>
+    </h1>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCypress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        Appium
+      </Col>
+    </Row>
+    <h1 className="project-heading">
           Programming languages <strong className="purple">Skillset </strong>
     </h1>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -96,7 +109,7 @@ function Techstack() {
       <SiJava/>
       </Col>
     </Row>
-    <p>and some other languages like <strong className="purple">Verilog and Assembly and C  </strong></p>
+    <p>and some other languages like <strong className="purple">Verilog , Assembly and C  </strong></p>
 
     </>
   );

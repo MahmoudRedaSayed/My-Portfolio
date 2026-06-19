@@ -1,13 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/pre.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 function Section2() {
   return (
@@ -19,43 +15,42 @@ function Section2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++ , C , Java , Javascript and Python. </b>
-              </i>
+              I'm a <b className="purple">Senior Backend Developer</b> based in
+              Cairo, Egypt, focused on building scalable backend systems,
+              RESTful APIs, and fintech platforms that demand high performance,
+              reliability, and security.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> 
-                {/* and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b> */}
-              </i>
+              Currently at <b className="purple">PaySky</b>, I work on
+              microservices architecture and backend services for fintech
+              products. I also contribute as a{" "}
+              <b className="purple">Teaching Assistant</b> at Cairo University.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">express.js , Laravel , flask</b> ,
+              My core stack includes{" "}
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                  Laravel, Node.js, CodeIgniter, MySQL, and MongoDB
                 </b>
               </i>
-              &nbsp; like
+              , with hands-on experience in{" "}
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">Docker, Kubernetes, and CI/CD</b>
               </i>
+              . On the frontend side, I work with{" "}
+              <i>
+                <b className="purple">React.js and Next.js</b>
+              </i>
+              , which helps me collaborate effectively across the full stack.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src="https://avatars.githubusercontent.com/u/76118788?s=400&u=938e356c365da338b7dd49071d6a77fd767fdf93&v=4" className="img-fluid" alt="avatar" />
+              <img
+                src="https://avatars.githubusercontent.com/u/76118788?s=400&u=938e356c365da338b7dd49071d6a77fd767fdf93&v=4"
+                className="img-fluid"
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
@@ -71,7 +66,7 @@ function Section2() {
                   href="https://github.com/MahmoudRedaSayed"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -81,9 +76,17 @@ function Section2() {
                   href="https://www.linkedin.com/in/mahmoud-reda-sayed-7b52a7232/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:mahmoudredasayed997@gmail.com"
+                  className="icon-colour home-social-icons"
+                >
+                  <HiOutlineMail />
                 </a>
               </li>
             </ul>

@@ -4,8 +4,11 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
-  SiIntellijidea
+  SiIntellijidea,
+  SiDocker,
+  SiGithubactions,
 } from "react-icons/si";
+import { DiGit } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -21,6 +24,15 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiIntellijidea />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithubactions />
       </Col>
     </Row>
   );

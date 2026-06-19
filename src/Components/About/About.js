@@ -4,6 +4,8 @@ import Particle from "../../helpers/Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
+import Experience from "./Experience";
+import Education from "./Education";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import MyPics1 from "../../Assets/mypics/MyPics1.JPG";
@@ -147,6 +149,9 @@ function About() {
       </Carousel.Item>
     </Carousel>
         </Row>
+
+        <Experience />
+        <Education />
 
         <Techstack />
 
